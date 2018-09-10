@@ -151,7 +151,7 @@ Internet 网关在配置时需要具有对应的**子网**, 在配置之前请�
 
 ## 合理的 web hosting 的网络拓扑
 
-![image-20180821171757732](assets/vpc_guide/Web Hosting.png)
+![image-20180821171757732](assets/vpc_guide/Web_Hosting.png)
 
 一个合理的 Web Hosting 应该包含有以下几部分:
 
