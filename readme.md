@@ -8,8 +8,8 @@
 ## Public Subnet 与 Private Subnet
 
 - **子网**: VPC 是跨**可用区**的. 在创建 VPC 后需要为**每个可用区**添加一个或多个子网. 子网**不可跨**可用区.
-- **公有子网**( public subnet ): 子网的**关联路由表** **包含** 指向 **Internet 网关(Internet Gateways)**的路由的子网
-- **私有子网**( private subnet): 子网的**关联路由表** **不包含** 指向 **Internet 网关(Internet Gateways)**的路由的子网
+- **公有子网**( public subnet ): 子网的**关联路由表** **包含** 指向**Internet 网关(Internet Gateways)**的路由的子网
+- **私有子网**( private subnet): 子网的**关联路由表** **不包含** 指向**Internet 网关(Internet Gateways)**的路由的子网
   - **仅限 VPN 的子网**: 特别的,一个子网没有通向 **Internet 网关(Internet Gateways)**的路由, 但**其流量会被路由到虚拟专用网关以进行 VPN 连接**, 则这个子网就是**仅限 VPN 的子网**
 
 ![image-20180821103147315](assets/vpc_guide/image-20180821103147315.png)
